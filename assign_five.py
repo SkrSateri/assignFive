@@ -9,10 +9,11 @@ def main():
             number = int(input("Please give a number-> "))
             if number <= 1 :# The if method to check input value if its valid
                 print("The entered number is smaller or equals to 1! Please try again")
-            iteration_one = method_one(number)
-            iteration_two = method_two(number)
-            print("With 1st method number of iteration is:" + str(iteration_one))
-            print("With 2nd method number of iteration is:" + str(iteration_two))
+            else:
+                iteration_one = method_one(number)
+                iteration_two = method_two(number)
+                print("With 1st method number of iteration is:" + str(iteration_one))
+                print("With 2nd method number of iteration is:" + str(iteration_two))
         except:
             print("Please enter a whole number !")
         print("")
