@@ -1,1 +1,1 @@
-
+An application to check if a number is prime or not with two different methods.
